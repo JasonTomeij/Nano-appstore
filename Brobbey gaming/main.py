@@ -1,3 +1,5 @@
+import time
+
 App_name = """
 ██████╗ ██████╗  ██████╗ ██████╗ ██████╗ ███████╗██╗   ██╗    ███╗   ██╗ █████╗ ███████╗██╗      ███████╗████████╗ ██████╗ ██████╗ ███████╗
 ██╔══██╗██╔══██╗██╔═══██╗██╔══██╗██╔══██╗██╔════╝╚██╗ ██╔╝    ████╗  ██║██╔══██╗██╔════╝██║      ██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗██╔════╝
@@ -10,7 +12,9 @@ introductie = "Welkom in de Brobbey Nasi-Store \nSpeel zoveel mogelijk spellen e
 
 
 print(App_name)
+time.sleep(2)
 print(introductie)
+time.sleep(2)
 
 def keuze_menu():
     print("Welk spel wil je spelen? ")
@@ -27,6 +31,8 @@ while keuze != 0:
     if keuze == 1:
         #Doe optie 1
         print("Test keuze1")
+        time.sleep(2)
+        break
     elif keuze == 2:
         #doe keuze 2 
         print("Test keuze2")
@@ -35,6 +41,7 @@ while keuze != 0:
         print("Test keuze3")
     else:
         print("Dit is geen keuze")
+        time.sleep(2)
     keuze_menu()
     keuze = int(input("Kies jouw keuze: "))
 
