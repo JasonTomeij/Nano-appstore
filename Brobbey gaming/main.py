@@ -33,12 +33,11 @@ keuze = int(input("Kies jouw keuze: "))
 while keuze != 0:
     if keuze == 1:
         NummerRaadSpel.raad_getal_spel()
-        print("Test keuze1")
         time.sleep(2)
         break
     elif keuze == 2:
-        #doe keuze 2 
-        print("Test keuze2")
+        Galgje.galgje_spel()
+        break
     elif keuze == 3:
         #DOe keuze 3:
         print("Test keuze3")
