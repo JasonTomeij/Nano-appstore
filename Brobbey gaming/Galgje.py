@@ -53,3 +53,4 @@ if woord_geraden:
     print("\nGefeliciteerd! Je hebt het woord geraden: " + galgje_woord)
 else:
     print("\nJammer, je hebt verloren. Het woord was: " + galgje_woord)
+

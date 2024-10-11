@@ -1,4 +1,7 @@
 import time
+import NummerRaadSpel
+import Galgje
+
 
 App_name = """
 ██████╗ ██████╗  ██████╗ ██████╗ ██████╗ ███████╗██╗   ██╗    ███╗   ██╗ █████╗ ███████╗██╗      ███████╗████████╗ ██████╗ ██████╗ ███████╗
@@ -29,7 +32,7 @@ keuze = int(input("Kies jouw keuze: "))
 
 while keuze != 0:
     if keuze == 1:
-        #Doe optie 1
+        NummerRaadSpel.raad_getal_spel()
         print("Test keuze1")
         time.sleep(2)
         break
